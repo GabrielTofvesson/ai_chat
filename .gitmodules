@@ -1,0 +1,3 @@
+[submodule "openai-api-rust"]
+	path = openai-api-rust
+	url = git@github.com:GabrielTofvesson/openai-api-rust.git
