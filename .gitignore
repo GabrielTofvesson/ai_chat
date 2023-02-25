@@ -4,3 +4,4 @@ Cargo.lock
 **/*.rs.bk
 .vscode/
 Notes.md
+openai.sk
