@@ -10,3 +10,18 @@ openai-api = "0.1.5-alpha.0"
 
 [patch.crates-io]
 openai-api = { path = "./openai-api-rust" }
+
+[build]
+jobs = 1
+
+[profile.release]
+opt-level = 3
+debug = false
+lto = true
+debug-assertions = false
+codegen-units = 1
+panic = "abort"
+overflow-checks = false
+incremental = false
+strip = true
+split-debuginfo = "packed"
